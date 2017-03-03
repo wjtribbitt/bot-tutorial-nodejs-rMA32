@@ -75,7 +75,7 @@ function respond() {
   } 
   else if(request.text && botRegexDL.test(request.text)) {
     this.res.writeHead(200);
-    //postMessage("http://www.daddyleagues.com/maddenrating?name=&position=all&team="+request.text.substring(5,8));
+    //postMessage("http://www.daddyleagues.com/tmi?name=&position=all&team="+request.text.substring(5,8));
     postMessage("http://daddyleagues.com/tmi/team/"+request.text.substring(5,8)+"/depthchart");
     this.res.end();
   } 
