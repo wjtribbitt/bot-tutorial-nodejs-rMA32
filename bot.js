@@ -10,7 +10,7 @@ function respond() {
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
       botRegexSiege = /^\/siege/; botRegexOW = /^\/website/; 
       botRegexSlut = /^\/gay/; botRegexStop = /^\/stop/; botRegexSchedule = /^\/schedule/;
-      botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexNFP = /^\/NFP/;
+      botRegexProp = /^\/vS Super/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexNFP = /^\/NFP/;
       botRegexGian = /^\/gian/; botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/chevy/;
       botRegexDaf = /^\/dafuq/; botRegexMA32 = /^\/pending/; botRegexTrade = /^\/trade/; 
       siege1 = 'https://i.groupme.com/350x419.png.adc8c73a6c1547e0a9e04320296329f8'; siege2 = 'https://i.groupme.com/1279x752.jpeg.aa5d0401e0df495bba4b4e09dc5a6bd7'
@@ -33,9 +33,9 @@ function respond() {
     postMessage("https://http://daddyleagues.com/tmi/schedules");
     this.res.end();
   } 
-  else if(request.text && botRegexProp.test(request.text)) {
+  else if(request.text && botRegexvS Super.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/409x327.jpeg.08b5d95c51bb4897835cfe6b514f2f52.large");
+    postMessage("https://images-na.ssl-images-amazon.com/images/I/71fql74cvpL._UL1500_.jpg");
     this.res.end();
   }
   else if(request.text && botRegexKys.test(request.text)) {
