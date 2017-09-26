@@ -30,7 +30,7 @@ function respond() {
   } 
   else if(request.text && botRegexSchedule.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://http://daddyleagues.com/tmi/schedules");
+    postMessage("https://daddyleagues.com/tmi/schedules");
     this.res.end();
   } 
   else if(request.text && botRegexvss.test(request.text)) {
