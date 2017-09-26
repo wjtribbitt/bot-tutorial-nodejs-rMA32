@@ -9,7 +9,7 @@ function respond() {
       botRegexAd=/^\/advance/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/broadcasts/; botRegexCC = /^\/cc/;
       botRegexSiege = /^\/siege/; botRegexOW = /^\/website/; 
-      botRegexSlut = /^\/gay/; botRegexStop = /^\/stop/; botRegexSchedule = /^\/schedule/;
+      botRegexSlut = /^\/nuih/; botRegexStop = /^\/stop/; botRegexSchedule = /^\/schedule/;
       botRegexvss = /^\/vss/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexNFP = /^\/NFP/;
       botRegexGian = /^\/gian/; botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/cheese/;
       botRegexDaf = /^\/dafuq/; botRegexMA32 = /^\/pending/; botRegexTrade = /^\/trade/; 
@@ -25,7 +25,7 @@ function respond() {
   }
   else if(request.text && botRegexSlut.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://imgur.com/a/WHHuI");
+    postMessage("http://i0.kym-cdn.com/entries/icons/mobile/000/006/551/ORIGINALLLLL.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexSchedule.test(request.text)) {
