@@ -92,7 +92,7 @@ function respond() {
   }
   else if(request.text && botRegexRules.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://http://daddyleagues.com/tmi/rules");
+    postMessage("https://daddyleagues.com/tmi/rules");
     this.res.end();
   } 
   else if(request.text && botRegexGTA.test(request.text)) {
